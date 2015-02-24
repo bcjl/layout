@@ -1,3 +1,95 @@
 body{
   /* rules go here */
 }
+
+#navlist li{
+	display: inline;
+	float: right;
+	padding-right:10px;
+}
+
+#logo{
+	background-size: 160px 37px;
+	width: 160px;
+}
+
+.button {
+border-radius: 3px;
+background-color: #06C;
+border-color: #105296;
+border: 1px solid #999;
+border-bottom-width: 3px;
+color: white;
+font-size: .9em;
+font-weight: bold;
+padding: .5em 1em;
+text-decoration: none;
+}
+
+h1{
+	display:block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	font-size: 2.25em;
+	font-weight: bold;
+}
+
+.listedstuff {
+  position: relative;
+  left: 35%;
+  margin-left: -50px;
+
+}
+.listedstuff li{
+	font-size: 150%;
+	line-height: 1.25em;
+}
+	
+.form {
+	position: relative;
+  left: 50%;
+}
+
+#guy {
+	position: absolute;
+	left:25%;
+}
+
+.form input {
+	transition: all 0.2s ease;
+	background-color: white;
+	border: 1px solid #CCC;
+	border-top: 1px solid #999;
+	display: block;
+	font-size: 14px;
+	padding: 8px 5px;
+	width: 22%;
+}
+
+.form .submit {
+	background: #8fc857;
+	border: 1px solid #5c9425;
+	color: #fff;
+	font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 30px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+/*.FAQ {
+	display:block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+font-size: 2.25em;
+font-weight: bold;
+}
+
+.FAQ h1 {
+
+}*/

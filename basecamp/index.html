@@ -4,6 +4,38 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    google
+    <nav>
+    	<ul id="navlist">
+    		<img id="logo" src="./imgs/logo.png">
+    		<li><a class="button" href="https://launchpad.37signals.com/basecamp">Log In</a></li>
+    		<li><a href="https://basecamp.com/support/">Support</a></li>
+    		<li><a href="https://basecamp.com/tour/">Check out an example project</a></li>
+    		<li><a href="https://basecamp.com/start/">See prices & start a free trial</a></li>
+    	</ul>
+    </nav>
+
+  <header class="header">
+  	<h1>Just last week, 5,317 companies signed up for Basecamp.</h1>
+  </header>
+  <div class="listedstuff">
+  	<ul>
+  		<li>Prices start at just $20/month. <a href="https://basecamp.com/start#prices">Jump to the full price list.</a></li>
+  		<li>Every customer gets a no-obligation, <b>60-day unlimited-use free trial.</b></li>
+  		<li>No credit card required. Just fill out the form below and you’re in!</li>
+  	</ul>
+  </div>
+
+  	<img id="guy" src="./imgs/guy.png">
+
+  <div class="form">
+  	<form>
+  		<label><p>Your Full Name</p><input type="text" name="signup[full_name]" id="fullname" title="Your full name" autofocus="" placeholder="Johnny Appleseed" data-arm-target="top"></label>
+  		<label><p>Company or organization</p><input type="text" name="signup[company_name]" title="Company or organization" placeholder="Widget, Co." data-arm-target="top-mid"></label>
+			<label><p>Email</p><input type="text" name="signup[email_address]" title="Email" placeholder="johnny@widgetco.com" data-arm-target="bottom-mid"></label>
+			<label><p>Password</p><input type="password" name="signup[password]" title="Password" placeholder="Easy to remember, hard to guess" data-arm-target="bottom"></label>
+			<p><input type="submit" value="Start my two month free trial" class="submit"></p>
+  	</form>
+  </div>
+
   </body>
 </html>
